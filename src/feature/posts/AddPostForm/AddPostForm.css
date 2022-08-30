@@ -1,0 +1,47 @@
+section {
+  width: 50%;
+  margin: 0 auto;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+input,
+select {
+  width: 50%;
+  height: 20px;
+}
+
+select {
+  width: 387px;
+  height: 30px;
+}
+
+textarea {
+  width: 50%;
+}
+
+form button {
+  width: 387px;
+  margin-top: 20px;
+  border: solid 1px #333;
+  cursor: pointer;
+  height: 35px;
+  border-radius: 5px;
+}
+
+form button:disabled {
+  background-color: rgb(195, 191, 191);
+}
+
+form button {
+  background-color: #777;
+  color: #fff;
+}
